@@ -20,11 +20,11 @@ The model was constructed with a specific number of neurons, layers, and activat
 Example configuration: Two hidden layers with 64 and 32 neurons, respectively, both using the ReLU activation function.
 The output layer used a sigmoid activation function for binary classification.
 The choice of ReLU for hidden layers is common due to its ability to introduce non-linearity, while sigmoid in the output layer is ideal for binary classification tasks.
-Model Performance:
 
+###Model Performance:
 The model's target performance metric was likely accuracy. Whether this was achieved depends on the specific dataset and hyperparameter settings. With an accuracy threshold (e.g., 75% or higher), the model's success in achieving this benchmark could vary based on training and optimization efforts.
-Steps Taken to Increase Model Performance:
 
+### Steps Taken to Increase Model Performance:
 Conducted hyperparameter tuning using Keras Tuner to find the optimal number of layers, neurons, activation functions, and learning rates.
 Implemented dropout layers to reduce overfitting by randomly disabling a fraction of neurons during each iteration of training.
 Applied early stopping to halt training when the validation loss stopped improving, which helps in preventing overfitting.
